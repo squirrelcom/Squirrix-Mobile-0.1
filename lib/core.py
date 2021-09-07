@@ -1,5 +1,4 @@
 # CORE file contains main shell mechanisms
-from PIL import Image
 from importlib import import_module as _import
 from time import sleep
 
@@ -76,7 +75,7 @@ class shell():
         sleep(1)
         print('Running...\n')
         sleep(0.5)
-        print('Issue "help" to get started...\n')
+        print('Issue "help" to get started or type lcom to list every command...\n')
         while True:
             inp = self.get_input()
             self.execute(inp)
