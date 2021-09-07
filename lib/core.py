@@ -16,7 +16,7 @@ class shell():
     def get_input(self):
         if prop.get('prompt') != NULL:
             if prop.get('prompt') == '-def':
-                sh = '@Squirrix:' + get_path() + '> '
+                sh = '@Squirrix/' + get_path() + '> '
             else:
                 sh = prop.get('prompt') + ' '
         else:
