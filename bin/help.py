@@ -23,21 +23,13 @@ u = '''
 
 v = '''
 [version]
-v2.8
-
-[author]
-Sayan Dutta
+v0.1
 '''
 
 i = '''
-[info]
-This program is a shell/terminal
-environment simulator with a fairly
-easy to understand API for extending
-the program and/or the commands that
-the shell can recognize.
-
-see docs for more details.
+[About]
+Squirrix Mobile is a Mobile Operating enviroment
+for the ChipLet computer
 '''
 
 h = '''Usage: help [options]
