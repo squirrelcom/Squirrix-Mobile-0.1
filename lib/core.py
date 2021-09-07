@@ -20,7 +20,7 @@ class shell():
             else:
                 sh = prop.get('prompt') + ' '
         else:
-            sh = '@Squirrix:' + get_path() + '> '
+            sh = '@Squirrix/' + get_path() + '> '
         inp = input(sh)
         return inp
 
