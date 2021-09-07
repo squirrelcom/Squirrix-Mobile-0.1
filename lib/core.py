@@ -53,29 +53,24 @@ class shell():
         elif f not in f_list:
             analyze(f)
 
-    banner = (
-        """
-         ███████   ███      ███            ███████    ███████  
-        ████  ████ ███      ███          ████   ████ ████  ████
-        ███    ███ ███                   ███     ███ ████      
-        ███        ██████   ███ ██████   ███     ███  ███████   
-        ███        ███  ███ ███ ███  ███ ███     ███     █████ 
-        ███    ███ ███  ███ ███ ███  ███ ███     ███        ███
-        ████  ████ ███  ███ ███ ███ ████ ████   ████ ████  ████ 
-          ██████   ███  ███ ███ ██████     ███████     ██████
-                                ███                             
-                                ███                             
-                                ███                             
-        """)
-
     def start(self):
-        print(banner)
+        print(""" .d8888b.                    d8b                 d8b          
+d88P  Y88b                   Y8P                 Y8P          
+Y88b.                                                         
+ "Y888b.    .d88888 888  888 888 888d888 888d888 888 888  888 
+    "Y88b. d88" 888 888  888 888 888P"   888P"   888 `Y8bd8P' 
+      "888 888  888 888  888 888 888     888     888   X88K   
+Y88b  d88P Y88b 888 Y88b 888 888 888     888     888 .d8""8b. 
+ "Y8888P"   "Y88888  "Y88888 888 888     888     888 888  888 
+                888                                           
+                888                                           
+                888                                           """)
         # write config file
         write_config()
         sleep(1)
         print('Running...\n')
         sleep(0.5)
-        print('Issue "help" to get started or type lcom to list every command...\n')
+        print('Issue "help" to get started or type "lcom" to list every command...\n')
         while True:
             inp = self.get_input()
             self.execute(inp)
