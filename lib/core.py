@@ -1,4 +1,5 @@
 # CORE file contains main shell mechanisms
+from PIL import Image
 from importlib import import_module as _import
 from time import sleep
 
@@ -53,8 +54,23 @@ class shell():
         elif f not in f_list:
             analyze(f)
 
+    banner = (
+        """
+         ███████   ███      ███            ███████    ███████  
+        ████  ████ ███      ███          ████   ████ ████  ████
+        ███    ███ ███                   ███     ███ ████      
+        ███        ██████   ███ ██████   ███     ███  ███████   
+        ███        ███  ███ ███ ███  ███ ███     ███     █████ 
+        ███    ███ ███  ███ ███ ███  ███ ███     ███        ███
+        ████  ████ ███  ███ ███ ███ ████ ████   ████ ████  ████ 
+          ██████   ███  ███ ███ ██████     ███████     ██████
+                                ███                             
+                                ███                             
+                                ███                             
+        """)
+
     def start(self):
-        print('Starting Shell...\n')
+        print(banner)
         # write config file
         write_config()
         sleep(1)
