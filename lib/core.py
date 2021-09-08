@@ -65,7 +65,7 @@ class shell():
         write_config()
         sleep(1)
         print('Copyright (c) Squirrel Computers 2021\n')
-        sleep 2
+        sleep (2)
         print('Starting Squirrix Mobile\n')
         sleep(0.5)
         print('Type "help" for help or type "lcom" to list every command...\n')
