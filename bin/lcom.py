@@ -56,4 +56,4 @@ def main(argv):
         if i[0] != last:
             last = i[0]
             print('Section:', last.upper())
-        print('    ==>', i)
+        print('    -->', i)
