@@ -2,23 +2,23 @@
 
 u = '''
 [help]
-=> To list available commands 
+ To list available commands 
    use "lcom" command
 
-=> For extra info and help on
-   particular commands pass
-   "-h" as argument with the
-   required command.If help is
+ For extra info and help on
+   particular commands type
+   "-h" after you command, e.g "(command)
+    -h". If help is
    available, it will be shown.
 
-=> Enter mathematical
+ Enter mathematical
    expressions directly into the
    shell to evaluate them. Also
    you can issue a special keyword
    "--math" to list the supported 
    mathematical functions.
 
-=> Issue "exit" to exit the shell
+Issue "exit" to exit the shell
 '''
 
 v = '''
