@@ -64,9 +64,11 @@ class shell():
         # write config file
         write_config()
         sleep(1)
-        print('Running...\n')
+        print('Copyright (c) Squirrel Computers 2021\n')
+        sleep 2
+        print('Starting Squirrix Mobile\n')
         sleep(0.5)
-        print('Issue "help" to get started or type "lcom" to list every command...\n')
+        print('Type "help" for help or type "lcom" to list every command...\n')
         while True:
             inp = self.get_input()
             self.execute(inp)
